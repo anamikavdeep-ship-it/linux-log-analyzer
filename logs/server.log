@@ -1,0 +1,10 @@
+2026-11-05 09:00:12 INFO Server started successfully
+2026-11-05 09:02:15 INFO User logged in
+2026-11-05 09:05:30 WARNING High memory usage detected
+2026-11-05 09:07:45 ERROR Database connection failed
+2026-11-05 09:10:20 INFO Request processed successfully
+2026-11-05 09:12:10 ERROR Disk space critically low
+2026-11-05 09:15:00 WARNING CPU usage above threshold
+2026-11-05 09:18:25 INFO Backup completed
+2026-11-05 09:20:40 ERROR Application timeout
+2026-11-05 09:25:00 INFO Server health check passed

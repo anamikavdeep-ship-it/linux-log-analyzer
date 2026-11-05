@@ -1,0 +1,30 @@
+cd linux-log-analyzer
+ls
+notepad log_analyzer.py
+python log_analyzer.py
+git status
+git add .
+git status
+git commit -m "Initial commit: Add Linux log analyzer"
+git branch -M main
+git checkout -b feature/add-error-summary
+git branch
+notepad log_analyzer.py
+python log_analyzer.py
+git status
+git add log_analyzer.py
+git commit -m "Add detailed error summary"
+git log --oneline --all --decorate
+git checkout main
+git merge feature/add-error-summary
+python log_analyzer.py
+notepad README.md
+git status 
+git add README.md
+git status
+git commit -m "Add project documentation"
+git status
+git remote add origin https://github.com/anamikavdeep-ship-it/linux-log-analyzer.git
+git remote -v
+git push -u origin main
+doskey /history > terminal-history.txt

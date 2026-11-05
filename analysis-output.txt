@@ -1,0 +1,10 @@
+===== LINUX LOG ANALYSIS REPORT =====
+INFO messages: 5
+WARNING messages: 2
+ERROR messages: 3
+Total log entries: 10
+
+===== ERROR DETAILS =====
+2026-11-05 09:07:45 ERROR Database connection failed
+2026-11-05 09:12:10 ERROR Disk space critically low
+2026-11-05 09:20:40 ERROR Application timeout

@@ -28,3 +28,53 @@ git remote add origin https://github.com/anamikavdeep-ship-it/linux-log-analyzer
 git remote -v
 git push -u origin main
 doskey /history > terminal-history.txt
+git branch
+notepad log_analyzer.py
+python log_analyzer.py
+git status
+git add log_analyzer.py
+git commit -m "Add detailed error summary"
+git log --oneline --all --decorate
+git checkout main
+git merge feature/add-error-summary
+python log_analyzer.py
+notepad README.md
+git status 
+git add README.md
+git status
+git commit -m "Add project documentation"
+git status
+git remote add origin https://github.com/anamikavdeep-ship-it/linux-log-analyzer.git
+git remote -v
+git push -u origin main
+doskey /history > terminal-history.txt
+python log_analyzer.py > analysis-output.txt
+dir analysis-output.txt
+git add analysis-output.txt terminal-history.txt
+git status
+git commit -m "Add analysis report and terminal command history"
+git push
+mkdir .github\workflows
+notepad .github\workflows\python-ci.yml
+dir .github\workflows
+git status
+git add .github/workflows/python-ci.yml
+git commit -m "Add GitHub Actions CI workflow"
+git push
+mkdir tests
+notepad tests\test_log_analyzer.py
+notepad log_analyzer.py
+python log_analyzer.py
+notepad tests\test_log_analyzer.py
+python -m unittest discover -s tests -v
+notepad .github\workflows\python-ci.yml
+git status
+notepad .gitignore
+git status
+git add .gitignore log_analyzer.py .github/workflows/python-ci.yml tests\test_log_analyzer.py
+git commit -m "Add unit tests to CI workflow"
+git push
+notepad README.md
+git status
+notepad terminal-history.txt
+doskey /history >> terminal-history.txt

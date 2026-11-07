@@ -138,3 +138,8 @@ Through this project, I practised:
 ## Repository
 
 [View the project on GitHub](https://github.com/anamikavdeep-ship-it/linux-log-analyzer)
+
+## CI Failure Practice
+
+This section is part of my hands-on practice with GitHub Actions,
+CI troubleshooting, and automated testing.
